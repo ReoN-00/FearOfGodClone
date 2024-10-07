@@ -1,0 +1,43 @@
+.center-nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 150;
+    font-style: normal;
+}
+
+.custom-navbar {
+    background-color: white !important;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.logo{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: normal;
+}
+
+.poppins-thin::placeholder {
+    font-family: "Poppins", sans-serif;
+    font-weight: 150 !important; /* Force thin font-weight */
+    font-style: normal;
+    color: #666; /* Optional: Customize placeholder color */
+}
+.price{
+    font-size:80%;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    transition: all 0.3s ease;
+}
